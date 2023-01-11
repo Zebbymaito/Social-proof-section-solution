@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;  
+}
+body{
+    background-image: url("/images/bg-pattern-top-desktop.svg");
+    font-family: 'Spartan', sans-serif;
+}
+.box-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.top-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.top-container h1{
+    font-size: 40px;
+    margin-bottom: 16px;
+    color: hsl(300, 43%, 22%);
+}
+.top-container p{
+    font-size: 14px;
+    color: hsl(303, 10%, 53%);
+    line-height: 1.5;
+}
+.ratings{
+    margin-top: 25px;
+}
+.customer-rating{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:hsl(300, 24%, 96%) ;
+    padding: 12px 24px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    align-items: center;
+    border-radius: 8px;
+
+}
+.rating-image{
+    margin-right: 16px;
+}
+.rating-two{
+    margin-left: 40px;
+}
+.rating-three{
+    margin-left: 70px;
+}
+.ratings h3{
+    font-size: 13px;
+    color:hsl(300, 43%, 22%) ;
+}
+.ratings-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.card{
+    width: 350px;
+    height: 180px;
+    
+    background-color: hsl(300, 43%, 22%);
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.profile{
+    display: flex;
+}
+.profile img{
+    margin-right: 20px;
+    width: 50px;
+    height: auto;
+    border-radius: 60px;
+}
+.profile h3{
+    font-size: 15px;
+    margin-bottom: 5px;
+    color:  hsl(300, 24%, 96%);
+}
+.profile h5{
+    font-size: 10px;
+    color: hsl(333, 80%, 67%);
+}
+.review{
+    font-size: 13px;
+    color: hsl(300, 24%, 96%) ;
+    margin-top: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+    
+
+}
+.rating-1{
+    margin-top: 20px;
+}
+.rating-2{
+    margin-top: 40px;
+}
+.rating-3{
+    margin-top: 60px;
+}
+.bottom-container{
+    margin-left: 110px;
+    background-image: url(/images/bg-pattern-bottom-desktop.svg);
+    background-position: bottom;
+} 
+@media (max-width: 375px) {
+    .top-container h1{
+        font-size: 25px;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .top-container p{
+        font-size: 13px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .rating-two{
+        margin-left: 0;
+    }
+    .rating-three{
+        margin-left: 0;
+    }
+    .rating-image{
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+    .customer-rating{
+        justify-content: center;
+    }
+    .ratings-part{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       margin: 0;
+    }
+     .card{
+        width: 100%;
+        height: 250px;
+        padding: 20px 50px;
+        margin-right: 70px;
+    
+    } 
+    .rating-2 card{
+        margin-top:0px ;
+    }
+   
+        
+  
+
+    
+}
